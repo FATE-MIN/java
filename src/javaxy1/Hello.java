@@ -6,8 +6,8 @@ package javaxy1;
 /**
  * 
  * @Description
- * @author 86131
- * @date 2022年2月15日上午11:49:56
+ * @author 
+ * @date 
  */
 public class Hello {
 
