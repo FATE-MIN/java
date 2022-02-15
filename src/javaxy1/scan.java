@@ -6,11 +6,11 @@ import java.util.Scanner;
  * @author 86131
  * @date 2022年2月15日上午11:50:10
  */
-public class scan {
+public class Scan {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		/*System.out.println("please input the name :");
+		System.out.println("please input the name :");
 		String name = scan.next();
 		System.out.println("please input the age :");
 		int age = scan.nextInt();
@@ -46,14 +46,12 @@ public class scan {
 				break;
 			}
 		}
-		*/
 		long start = System.currentTimeMillis();
-		int n = 2;
-		int i;
 		int counts = 0;
+		int num = 2;
 		boolean isFlag = true;
-		while(n<=100000) {
-			for(i=2;i<=Math.sqrt(n);i++) {
+		while(num<=100000) {
+			for(i=2;i<=Math.sqrt(num);i++) {
 				if(n % i == 0) {
 					isFlag = false;
 					break;//指定结束的循环标签
@@ -65,7 +63,7 @@ public class scan {
 				//System.out.print("\t");
 			}
 			isFlag = true;//标记isFlag为true
-			n++;
+			num++;
 		}
 		long end = System.currentTimeMillis();//单位：毫秒
 		System.out.print("\n");

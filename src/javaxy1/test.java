@@ -7,9 +7,9 @@ import java.util.Scanner;
  * @author 86131
  * @date 2022年2月15日上午11:50:48
  */
-public class test {
+public class Test {
 	public static void main(String[] args) {
-		System.out.print(4/3);
+		System.out.println(4/3);
 		Scanner scan =  new Scanner(System.in);
 		int i0 = scan.nextInt();
 		System.out.println("i0="+i0);
@@ -21,10 +21,11 @@ public class test {
 		}
 		if((x=false)||(++z==45)) z++;
 		System.out.println("z="+z);
-		System.out.println(6&3);
+		System.out.println("6&3=" + (6&3));
 		System.out.println(20%12);
-		System.out.println(3<<2);
-		System.out.println(3>>2);
+		System.out.println(3<<2); //左移两位，原数乘以2的2(移位数)次幂
+		System.out.println(3>>2);//右移两位，原数除以2的2(移位数)次幂
+		//交换两数
 		int a1 = 1,a2 = 2;
 		int temp;
 		temp = a1;

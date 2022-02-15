@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author 86131
  * @date 2022年2月15日上午11:49:21
  */
-public class array {
+public class Array {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int ids[];
