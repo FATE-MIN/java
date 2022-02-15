@@ -3,12 +3,6 @@ package javaxy1;
 //JDK=JRE+java开发工具
 //JRE=JVM+java核心类库
 //双指针
-/**
- * 
- * @Description
- * @author 86131
- * @date 2022年2月15日上午11:49:56
- */
 public class Hello {
 
 	public static void main(String[] args) {
